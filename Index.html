@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Interiores</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+<body>
+
+  <div id="Conteiner-h">
+
+   <div id="Banner-Cont">
+       <header>
+           <div class="header-b">
+            <img src="Imagenes/Logo/logo.jpg" alt="Logo" class="nav-brand">
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+               <nav class="nav-main">
+                   
+              
+               <ul>
+                   <li> <a href="Index.html">Inicio</a></li>
+                   <li> <a href="#Portaf">Portafolio</a></li>
+                   <li> <a href="#Proc">Proceso</a></li>
+                   <li> <a href="#Cont">Contacto</a></li>
+               </ul>
+               </nav>
+           </div>
+       </header>
+        
+       <div class="Slider-n">
+        <ul class="Slider1">
+         <li><img src="Imagenes/Slider/imageB1.jpg" alt="Slider1"></li> 
+         <li><img src="Imagenes/Slider/imageB2.jpg" alt="Slider2"></li> 
+         <li><img src="Imagenes/Slider/imageB3.jpg" alt="Slider3"></li> 
+        </ul>
+       </div>
+   </div>
+ 
+
+ <div class="Portaf" id="Portaf">
+ <h1>PORTAFOLIO</h1>
+ <div class="Linea"> </div>
+ <div class="Conteiner-img">
+    <div class="Imagen">
+    <img src="Imagenes/Image4.jpg" alt="Imagen">
+    </div>
+    <div class="Imagen">
+    <img src="Imagenes/Image5.jpg" alt="Imagen">
+    </div>
+    <div class="Imagen">
+    <img src="Imagenes/Image6.jpg" alt="Imagen">
+    </div>
+    <div class="Imagen">
+    <img src="Imagenes/Image7.jpg" alt="Imagen">
+    </div>
+    <div class="Imagen">
+    <img src="Imagenes/Image8.jpg" alt="Imagen">
+    </div>
+    <div class="Imagen">
+    <img src="Imagenes/Image9.jpg" alt="Imagen">
+    </div>
+  </div>
+  </div>
+  
+  <h1>Procesos</h1>
+  <div class="Linea"> </div>
+<div class="Proc" id="Proc">
+    
+<div class="Cont-sec"> 
+     <div class="Process" id="Pro1" >
+      <div class="Ico">
+       <img src="Imagenes/Icono1.jpg" alt="Icono">
+     </div>
+     <h3>LLUVIA  DE  IDEAS</h3>
+     <p>Primero, necesitamos conocerte. Nos reuniremos con usted en su espacio para hablar sobre
+     su estilo de vida y valores, sus necesidades y aspiraciones. Escuchamos atentamente para comprender 
+     su estilo personal y reunir ideas que informarán tanto el diseño como la funcionalidad. Luego 
+     compartimos paneles de inspiración, lluvia de ideas y discutimos los próximos pasos   
+     </p>
+     </div> 
+
+    <div class="Process" id="Pro2" >
+     <div class="Ico">
+       <img src="Imagenes/Icono2.jpg" alt="Icono">
+     </div>
+     <h3>SELECCIÓN  Y  PLANIFICACIÓN</h3>
+     <p>Aquí es donde identificamos los elementos que definirán y elevarán su espacio. Ya sea que 
+     su proyecto sea una renovación o una nueva construcción, desarrollaremos un diseño integral, 
+     que incluirá planes arquitectónicos interiores bien considerados cuando sea necesario. Su tiempo 
+     es valioso, por lo que simplificamos las decisiones presentando opciones bien pensadas para sus 
+     comentarios y aprobación
+     </p>
+    </div>
+
+    <div class="Process" id="Pro3" >
+     <div class="Ico">
+       <img src="Imagenes/Icono3.jpg" alt="Icono">
+     </div>
+    <h3>PROYECTO  EJECUCIÓN</h3>
+     <p>Finalmente, nuestro equipo ejecutará el plan, gestionará cada detalle de su proyecto y coordinará
+         a nuestros contratistas y artesanos dedicados en cada paso. Compartiremos el progreso y lo 
+         mantendremos comprometido y emocionado mientras transformamos su espacio en un hogar que habla 
+         con su visión y lo inspira todos los días.
+     </p>
+    </div>  
+    </div>
+ </div>  
+</div>
+ 
+    
+     <div class="Banner-footer " id="Cont">
+         <footer>
+         <div class="Icon-text">
+             <div class="Icon-text-icon">
+                 <ul>
+                    <li> <a href="Index.html">Inicio</a></li>
+                    <li> <a href="#">Portafolio</a></li>
+                    <li> <a href="#">Proceso</a></li>
+                    <li> <a href="#">Contacto</a></li>
+                 </ul> 
+             </div>
+         </div>
+
+         <div class="icon-text-text">
+            <ul class="social">
+                <li> <a href=" http://facebook.com" target="_blank">
+                    <i class =" fa fa-facebook "></i> </a>
+               </li>
+               <li><a href="http://twitter.com"target="_blank">
+                   <i class=" fa fa-twitter"></i></a>
+               </li>
+               <li><a href="http://youtube.com"target="_blank">
+                   <i class="fa fa-youtube"></i></a>
+               </li>
+               <li><a href="https://twitter.com/" target="_blank">
+                   <i class="fa fa-instagram "></i></a>
+               </li>
+    
+        </footer>
+     </div>
+
+                
+<!--scrip-->
+ <script>
+$(document).ready(function(){
+$('.Slider1').bxSlider({
+    mode: 'fade'
+})
+$('.Slider2').bxSlider({
+    mode: 'fade'
+})
+$('.Slider3').bxSlider({
+    mode: 'fade'
+})
+}) 
+ </script>
+</body>
+</html>
